@@ -1,0 +1,20 @@
+Check if a string contains the word word in it (case insensitive)
+/(?i)\bword\b/
+
+(?i) makes it match case insensitive
+
+
+https://www.w3schools.com/python/python_regex.asp
+https://regex101.com/quiz
+https://docs.python.org/3/library/re.html
+https://pynative.com/python/regex/
+https://www.regular-expressions.info/wordboundaries.html
+https://regex101.com/
+
+>>Use substitution to replace every occurrence of the word i with the word I (uppercase, I as in me). E.g.: i'm replacing it. am i not? -> I'm replacing it. am I not?.
+
+\bi\b
+
+s/\bi\b/I/g
+
+
